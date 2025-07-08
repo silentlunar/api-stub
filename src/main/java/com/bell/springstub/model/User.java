@@ -4,7 +4,7 @@ import lombok.Data;
 import jakarta.validation.constraints.NotBlank;
 
 @Data
-public class UserDTO {
+public class User {
 
     @NotBlank(message = "Логин не должен быть пустым")
     private String login;
